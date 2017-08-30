@@ -7,7 +7,7 @@ Interaction with [Qubole](https://qubole.com) Data Services APIs via Hubot frame
  * `export HUBOT_QUBOLE_AUTH_TOKEN=your_auth_token`
 
 * If you are not working on api.qubole.com, then you can override the api endpoint as well (optional)
- * `export HUBOT_QUBOLE_AUTH_TOKEN=https://<env>.qubole.com/api/latest`
+ * `export HUBOT_QUBOLE_BASE_URL=https://<env>.qubole.com/api/latest`
 
 If you are using Heroku to host your bot, replace `export ...` with `heroku set:config ...`.
 
@@ -30,3 +30,4 @@ See full instructions [here](https://github.com/github/hubot/blob/master/docs/sc
 - `hubot template <id> runs` - Shows the last 10 run of a given template
 - `hubot note <id> status` - Display the status of a given notebook id
 - `hubot qcuh` - Shows the QCUH consumed in ongoing month
+
